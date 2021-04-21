@@ -30,3 +30,7 @@
                     NameVirtualHost * : 80
 
                 - Automaticamente se agregara al resto de archivos necesarios
+
+                - Reiniciar apache con privilegios para que se realicen los cambios
+
+                    $ /etc/init.d/apache2 restart
