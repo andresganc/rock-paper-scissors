@@ -27,7 +27,7 @@
 
                 - agregar la linea al inicio si no existe o si esta comentada descomentarla
 
-                    NameVirtualHost * : 80
+                    NameVirtualHost *:80
 
                 - Automaticamente se agregara al resto de archivos necesarios
 
