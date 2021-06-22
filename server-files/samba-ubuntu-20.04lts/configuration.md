@@ -3,12 +3,15 @@
 
     - Archivo samba para crear los puntos de conexion 
 
+        - Copia de seguridad del archivo smb.config
+            $ sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.orig
+
         - Editar el archivo
-        $ sudo vim /etc/samba/smb.conf
+            $ sudo vim /etc/samba/smb.conf
 
 
         - Reiniciar Samba (Despues de editar el archivo smb.conf) 
-        $ sudo systemctl restart smbd
+            $ sudo systemctl restart smbd
 
         
 
